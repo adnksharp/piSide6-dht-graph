@@ -132,10 +132,10 @@ class Ui_Widget(object):
         self.frame.setFrameShadow(QFrame.Shadow.Raised)
         self.verticalLayout_5 = QVBoxLayout(self.frame)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
-        self.verticalLayout = QVBoxLayout()
-        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.graphs = QHBoxLayout()
+        self.graphs.setObjectName(u"graphs")
 
-        self.verticalLayout_5.addLayout(self.verticalLayout)
+        self.verticalLayout_5.addLayout(self.graphs)
 
 
         self.verticalLayout_6.addWidget(self.frame)
