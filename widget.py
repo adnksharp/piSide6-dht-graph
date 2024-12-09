@@ -57,9 +57,9 @@ class Board():
         
     def update(self, data):
         self.data = [data[4], data[5], (data[5]* 9 / 5) + 32]
-        self.parent.dhtH.setText(str(self.data[0]))
-        self.parent.dhtC.setText(str(self.data[1]))
-        self.parent.dhtF.setText(str(self.data[2]))
+        self.parent.dhtH.setText(str(round(self.data[0], 2)))
+        self.parent.dhtC.setText(str(round(self.data[1], 2)))
+        self.parent.dhtF.setText(str(round(self.data[2], 2)))
 
 class Widget(QWidget):
     def __init__(self, parent=None):
