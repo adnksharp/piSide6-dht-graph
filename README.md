@@ -1,5 +1,5 @@
 # Read temperature and humidity with DHT sensors
-![](https://i.imgur.com/8kgWJW8.png)
+![](https://i.imgur.com/IgdL9Li.png)
 
 Medir temperatura y humedad del ambiente usando sensores de temperatura DHT, Arduino y Python
 
@@ -37,7 +37,11 @@ https://mryslab.github.io/pymata4/firmata_express/#installation-instructions
 pip install -r requirements.txt
 ```
 
-### Material usado
+### Hardware usado
+
+| ![](https://i.imgur.com/aNIjET7.png) | ![](https://i.imgur.com/5EoWRIe.png) |
+|----|----|
+
 - Placa de Arduino MEGA 2560
 - Sensor DHT11
 
