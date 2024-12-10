@@ -27,7 +27,7 @@ https://mryslab.github.io/pymata4/firmata_express/#installation-instructions
 
 #### Cargar el [proyecto de FirmataExpress](https://github.com/MrYsLab/FirmataExpress) a la placa de Arduino
 
-## Librerías de Python
+### Librerías de Python
 
 - PySide6
 - matplotlib
@@ -36,6 +36,10 @@ https://mryslab.github.io/pymata4/firmata_express/#installation-instructions
 ```bash
 pip install -r requirements.txt
 ```
+
+### Material usado
+- Placa de Arduino MEGA 2560
+- Sensor DHT11
 
 ## Características
 - Mostrar la humedad (%) y la temperatura en (°C y °F) dentro de labels.
