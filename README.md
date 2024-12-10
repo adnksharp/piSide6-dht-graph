@@ -1,5 +1,5 @@
 # Read temperature and humidity with DHT sensors
-![](https://i.imgur.com/IgdL9Li.png)
+![](https://i.imgur.com/8kgWJW8.png)
 
 Medir temperatura y humedad del ambiente usando sensores de temperatura DHT, Arduino y Python
 
@@ -45,5 +45,4 @@ pip install -r requirements.txt
 
 > [!TIP]
 >
-> - Graficar la humedad.
-> - Diagrama electronico del proyecto.
+> Graficar la humedad.
